@@ -1,12 +1,23 @@
-
+import NavBar from "./components/navber/NavBar"
+import "./App.css"
+import Banner from "./components/homepage/banner/Banner"
 function App() {
 
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+     <header >
+
+    <NavBar />
+    <Banner/>
+    
+     </header>
+     <main>
+
+     </main>
+     <footer>
+
+     </footer>
     </>
   )
 }
