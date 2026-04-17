@@ -1,6 +1,10 @@
-import NavBar from "./components/navber/NavBar"
+import NavBar from "./components/homepage/navber/NavBar"
 import "./App.css"
 import Banner from "./components/homepage/banner/Banner"
+import Hrline from "./components/homepage/hrline/Hrline"
+import Start from "./components/homepage/start/Start"
+import Footer from "./components/homepage/footer/Footer"
+
 function App() {
 
 
@@ -9,14 +13,17 @@ function App() {
      <header >
 
     <NavBar />
+    <Hrline/>
     <Banner/>
     
      </header>
      <main>
+      <Start/>
 
      </main>
-     <footer>
-
+     <footer className="bg-[#101727] ">
+      
+    <Footer/>
      </footer>
     </>
   )

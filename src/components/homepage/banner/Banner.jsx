@@ -5,34 +5,6 @@ const Banner = () => {
 
     return (
 
-//         <section className='min-h-screen bg-base-200 flex items-center justify-center gap-120 px-4 lg:px-0'>
-//             <div className='w-full '>
-//                 <div>
-//                     <div className='border border-[#4F39F6] rounded-full px-4 py-3 flex items-center gap-4  '>
-//                         <div className='border border-[#4F39F6] rounded-full p-1 '>
-//                      <span className='text-[#4F39F6] rounded-full bg-[#4F39F6] w-2 h-2 block '>
-                        
-//                         </span>
-//                         </div>
-                       
-//             <h4 className='text-[16px] font-semibold text-transparent bg-clip-text bg-gradient-to-b from-[#4F39F6] to-[#9514FA] '>New: AI-Powered Tools Available</h4>
-//                     </div>
-                    
-//                 </div>
-//                 <h1 className='text-5xl font-bold text-[#101727]'>Supercharge Your <br /> Digital Workflow</h1>
-//                 <p className='text-[16px] font-normal text-[#101727] mt-4'>Access premium AI tools, design assets, templates, and productivity
-// software—all in one place. Start creating faster today.Explore Products</p>
-//                 <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-[16px] font-semibold text-white mt-6">Explore Products</button>  
-//                 <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-[16px] font-semibold text-white mt-6">Watch Demo</button>  
-//             </div>
-//             <div className='w-full '>
-               
-//             </div>
-            
-            
-//         </section>
-
-
 <section className=" hero min-h-screen container mx-auto" >
   <div className="hero-content flex-col gap-x-60 lg:flex-row-reverse ">
     
@@ -46,7 +18,7 @@ const Banner = () => {
         <div>
                     <div className='border border-transparent bg-purple-100 rounded-full p-3 flex items-center gap-4 w-max '> 
                         <div className='border border-[#4F39F6] rounded-full p-1  '>
-                     <span className='text-[#4F39F6] rounded-full bg-[#4F39F6] w-2 h-2 block '>
+                     <span className='text-[#4F39F6] rounded-full bg-[#4F39F6] w-2 h-2 block animate-pulse '>
                         
                         </span>
                         </div>

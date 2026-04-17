@@ -41,10 +41,13 @@ const NavBar = () => {
     </div>
    
     <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-[16px] font-semibold text-white">Get Started</button>
-    <hr className='' />
+    
   </div>
+  
 
 </div>
+
+
     );
 };
 
