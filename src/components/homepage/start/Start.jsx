@@ -2,7 +2,7 @@ import React from 'react';
 
 const Start = () => {
     return (
-        <section className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-8  px-52 mb-4">
+        <section className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-8  px-52 ">
 <div className=" w-full flex flex-col space-y-4 lg:flex-row justify-between items-center text-center">
   
         <div>

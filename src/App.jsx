@@ -4,6 +4,7 @@ import Banner from "./components/homepage/banner/Banner"
 import Hrline from "./components/homepage/hrline/Hrline"
 import Start from "./components/homepage/start/Start"
 import Footer from "./components/homepage/footer/Footer"
+import Ready from "./components/homepage/ready/Ready"
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
      </header>
      <main>
       <Start/>
+      <Ready />
 
      </main>
      <footer className="bg-[#101727] ">
