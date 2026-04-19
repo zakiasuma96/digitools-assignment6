@@ -1,10 +1,13 @@
 import React from 'react';
+import { TiTick } from 'react-icons/ti';
 
-const Card = ((tool)) => {
+const Card = ({ tool }) => {
     return (
-        <section className=' grid mx-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-            {tools.map((tool)=>{
-                return               <div className="card bg-base-100  shadow-sm">
+       
+                     <div className="card bg-base-100  shadow-sm">
+                  <div>
+                    
+                  </div>
                 <div className='flex justify-end mt-4 mr-4'>
 
                 <button className="btn rounded-full w-[40%]  bg-purple-200 text-purple-800 uppercase">{tool.tag}</button>
@@ -32,11 +35,11 @@ const Card = ((tool)) => {
     </div>
   </div>
 </div>  
-    })}
+    
           
          
 
-        </section>
+       
     );
 };
 
