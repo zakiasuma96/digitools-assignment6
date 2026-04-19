@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "highlight",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/RxTnQbV/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Generator",
+    "description": "Generate blogs, captions, and articles using AI.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "success",
+    "features": ["Unlimited content", "SEO optimization", "Multi-language support"],
+    "icon": "https://i.ibb.co.com/FbpNYWt5/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Schedule and manage posts across platforms.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "info",
+    "features": ["Auto posting", "Analytics dashboard", "Multi-platform support"],
+    "icon": "https://i.ibb.co.com/YTVGc4Sz/social-media.png"
+  },
+  {
+    "id": 4,
+    "name": "Invoice Generator",
+    "description": "Create and send professional invoices بسهولة.",
+    "price": 19.99,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "warning",
+    "features": ["Custom branding", "Auto calculations", "Download PDF"],
+    "icon": "https://i.ibb.co.com/DPNT2KYR/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Password Manager",
+    "description": "Securely store and manage your passwords.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "success",
+    "features": ["Encrypted storage", "Auto-fill", "Multi-device sync"],
+    "icon": "https://i.ibb.co.com/k2RRVZ50/writing-2327400-1.png"
+  },
+  {
+    "id": 6,
+    "name": "Logo Maker",
+    "description": "Design logos instantly with ready-made templates.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "info",
+    "features": ["Drag & drop editor", "High-res download", "Custom fonts"],
+    "icon": "https://i.ibb.co.com/YTVGc4Sz/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Tool",
+    "description": "Send bulk emails and track campaign performance.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "highlight",
+    "features": ["Email templates", "Analytics", "Automation workflows"],
+    "icon": "https://i.ibb.co.com/FbpNYWt5/operation.png"
+  },
+  {
+    "id": 8,
+    "name": "Task Manager",
+    "description": "Organize tasks and boost productivity.",
+    "price": 0,
+    "period": "monthly",
+    "tag": "free",
+    "tagType": "neutral",
+    "features": ["To-do lists", "Reminders", "Team collaboration"],
+    "icon": "https://i.ibb.co.com/DPNT2KYR/portfolio.png"
+  },
+  {
+    "id": 9,
+    "name": "Website Analytics",
+    "description": "Track visitor behavior and performance metrics.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "success",
+    "features": ["Real-time data", "Traffic insights", "Conversion tracking"],
+    "icon": "https://i.ibb.co.com/FbpNYWt5/operation.png"
+  }
+]

@@ -1,4 +1,5 @@
 import React from 'react';
+import shoppingCart from '../../../assets/products/shopping-cart.png'
 
 const NavBar = () => {
     return (
@@ -34,7 +35,7 @@ const NavBar = () => {
   <div className="navbar-end gap-6 ">
     <div className="flex items-center gap-4 justify-between  ">
       <button className="text-[16px] font-semibold text-[#101727] cursor-pointer ">
-        <i class="fa-solid fa-cart-shopping"></i>
+       <img src={shoppingCart} alt="Shopping Cart" />
       </button>
          
     <h4 className='text-[16px] font-semibold text-[#101727] cursor-pointer'>Login</h4>

@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className=" container mx-auto"> 
-        <section className='footer sm:px-30  sm:grid grid-cols-2 lg:grid-cols-5 gap-10 pt-30 pb-20'>
+        <section className='footer sm:grid grid-cols-2 mx-4 lg:grid-cols-5 gap-10 pt-30 pb-20'>
 
   <aside>
         <h1 className='text-3xl font-bold text-white'>Digitool</h1>

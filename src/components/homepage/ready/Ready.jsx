@@ -2,10 +2,10 @@ import React from 'react';
 
 const Ready = () => {
     return (
-        <section className='sm:px-10 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-8 mt-20 px-52 '>
+        <section className='sm:px-12 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] py-8 mt-20 lg:px-52 '>
             <div className='w-full flex flex-col space-y-8 lg:flex-col1+ justify-between items-center text-center py-20'>
                 <h2 className='sm:text-3xl lg:text-[40px] font-bold text-white leading-1'>Ready to Transform Your Workflow?</h2>
-                <p className='text-white opacity-60 text-[16px] font-normal leading-6 mt-8'>Join thousands of professionals who are already using Digitools to work smarter. <br />
+                <p className='px-5 text-white opacity-60 text-[16px] font-normal leading-6 mt-8'>Join thousands of professionals who are already using Digitools to work smarter. <br />
 Start your free trial today.</p>
                 <div className='flex space-x-4 justify-center'>
 

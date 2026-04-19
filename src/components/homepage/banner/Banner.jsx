@@ -5,7 +5,7 @@ const Banner = () => {
 
     return (
 
-<section className=" hero min-h-screen container mx-auto" >
+<section className=" hero min-h-[90vh] container mx-auto" >
   <div className="hero-content flex-col gap-x-60 lg:flex-row-reverse ">
     
        
