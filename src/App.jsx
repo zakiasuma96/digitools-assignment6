@@ -6,7 +6,7 @@ import Start from "./components/homepage/start/Start"
 import Footer from "./components/homepage/footer/Footer"
 import Ready from "./components/homepage/ready/Ready"
 import Tools from "./components/homepage/tools/Tools"
-import { Suspense } from "react"
+import { Suspense, useState } from "react"
 
 const fetchTools = async()=>{
   const res =await fetch("/data.json");
@@ -16,11 +16,14 @@ const fetchTools = async()=>{
 function App() {
 
 const toolsPromise = fetchTools();
+const [count, setCount] = useState(0);
+
+
   return (
     <>
      <header >
 
-    <NavBar />
+    <NavBar count={count} />
     <Hrline/>
     <Banner/>
     
@@ -29,7 +32,7 @@ const toolsPromise = fetchTools();
       <Start/>
       <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
 
-      <Tools toolsPromise={toolsPromise} />
+      <Tools toolsPromise={toolsPromise} setCount={setCount} />
       </Suspense>
       <Ready />
 

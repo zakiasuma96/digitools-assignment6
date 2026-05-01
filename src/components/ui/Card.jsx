@@ -1,10 +1,20 @@
 import React from 'react';
+import { useState } from 'react';
 import { TiTick } from 'react-icons/ti';
+// import { ToastContainer, toast } from 'react-toastify';
 
-const Card = ({ tool }) => {
+const Card = ({ tool, setCount, setSelectedTools, selectedTools }) => {
+  // const notify = () => toast("Wow so easy!");
+  const [isSelected, setIsSelected]=useState(false);
+  const handelClick =()=>{
+    alert(`${tool.name} added to cart!`); 
+    setIsSelected(true);
+    setCount(prevCount => prevCount + 1);
+    setSelectedTools([...selectedTools, tool]);
+  }
     return (
        
-                     <div className="card bg-base-100  shadow-sm">
+                     <div className="card bg-base-100  shadow-sm hover:-translate-y-2 transition- duration-600 ease-in-out">
                   <div>
                     
                   </div>
@@ -31,7 +41,12 @@ const Card = ({ tool }) => {
     
     <h3></h3>
     <div className="card-actions justify-end">
-      <button className="btn w-full rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white">Buy Now</button>
+      <button className={`btn w-full rounded-full  text-white ${isSelected ? "bg-green-500" : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA]"}`} 
+      onClick={handelClick}
+      >
+        {isSelected === true ? <><TiTick /> Added To Cart</> : "Buy Now"}
+      </button>
+      
     </div>
   </div>
 </div>  

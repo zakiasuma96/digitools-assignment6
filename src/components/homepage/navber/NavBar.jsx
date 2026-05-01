@@ -1,7 +1,8 @@
 import React from 'react';
 import shoppingCart from '../../../assets/products/shopping-cart.png'
 
-const NavBar = () => {
+const NavBar = ({ count}) => {
+  
     return (
       
         <div className="navbar container mx-auto">
@@ -34,8 +35,13 @@ const NavBar = () => {
   </div>
   <div className="navbar-end gap-6 ">
     <div className="flex items-center gap-4 justify-between  ">
-      <button className="text-[16px] font-semibold text-[#101727] cursor-pointer ">
+      <button className="text-[16px] font-semibold text-[#101727] cursor-pointer relative ">
+
+       
+
        <img src={shoppingCart} alt="Shopping Cart" />
+        {count > 0 && <span className={`w-6 h-6 rounded-full bg-red-400 absolute -top-5 -right-4 badge badge-sm`}>{count}</span>}
+       
       </button>
          
     <h4 className='text-[16px] font-semibold text-[#101727] cursor-pointer'>Login</h4>
