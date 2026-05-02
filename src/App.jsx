@@ -7,6 +7,9 @@ import Footer from "./components/homepage/footer/Footer"
 import Ready from "./components/homepage/ready/Ready"
 import Tools from "./components/homepage/tools/Tools"
 import { Suspense, useState } from "react"
+import { ToastContainer } from "react-toastify"
+import GetStarted from "./components/getStarted/GetStarted"
+import Pricing from "./components/pricing/Pricing"
 
 const fetchTools = async()=>{
   const res =await fetch("/data.json");
@@ -34,6 +37,9 @@ const [count, setCount] = useState(0);
 
       <Tools toolsPromise={toolsPromise} setCount={setCount} />
       </Suspense>
+      <ToastContainer />
+      <GetStarted/>
+      <Pricing/>
       <Ready />
 
      </main>

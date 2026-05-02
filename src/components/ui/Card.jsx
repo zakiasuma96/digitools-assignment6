@@ -1,13 +1,15 @@
 import React from 'react';
 import { useState } from 'react';
 import { TiTick } from 'react-icons/ti';
-// import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
+
 
 const Card = ({ tool, setCount, setSelectedTools, selectedTools }) => {
-  // const notify = () => toast("Wow so easy!");
+  // 
   const [isSelected, setIsSelected]=useState(false);
   const handelClick =()=>{
-    alert(`${tool.name} added to cart!`); 
+    
+     toast.success(`${tool.name} is selected`);
     setIsSelected(true);
     setCount(prevCount => prevCount + 1);
     setSelectedTools([...selectedTools, tool]);
