@@ -31,15 +31,15 @@ const [count, setCount] = useState(0);
     <Banner/>
     
      </header>
-     <main>
+     <main className="">
       <Start/>
       <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
 
       <Tools toolsPromise={toolsPromise} setCount={setCount} />
       </Suspense>
       <ToastContainer />
-      <GetStarted/>
-      <Pricing/>
+      <GetStarted />
+      <Pricing />
       <Ready />
 
      </main>

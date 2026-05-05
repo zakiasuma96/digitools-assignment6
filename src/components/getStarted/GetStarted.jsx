@@ -5,8 +5,10 @@ import Rocket from"../../assets/rocket.png";
 
 const GetStarted = () => {
   return (
-    <div>
-      <div className="text-center">
+    <div className="bg-[#eef3f8]">
+
+    <div className="mt-20 mb-20 container mx-auto py-30" >
+      <div className="text-center ">
         <h2 className="text-6xl font-extrabold mb-5 mt-8 ">
           Get Started In 3 Steps
         </h2>
@@ -14,7 +16,7 @@ const GetStarted = () => {
           Start using premium digital tools in minutes, not hours
         </p>
       </div>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-10 mt-10">
+      <div className="flex flex-col md:flex-row items-center justify-around gap-10 mt-10">
         {/* card-1  */}
         <div className="card bg-base-100 shadow-sm ">
           <div className="flex items-center justify-end gap-2 mr-4 mt-2 mb-8">
@@ -91,6 +93,7 @@ tools immediately.
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
