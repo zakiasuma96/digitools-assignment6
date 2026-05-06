@@ -5,14 +5,14 @@ import Rocket from"../../assets/rocket.png";
 
 const GetStarted = () => {
   return (
-    <div className="bg-[#eef3f8]">
+    <div className="">
 
-    <div className="mt-20 mb-20 container mx-auto py-30" >
-      <div className="text-center ">
+    <div className="mt-20 mb-20 px-6 container mx-auto py-30  " >
+      <div className="text-center items-center justify-items-center">
         <h2 className="text-6xl font-extrabold mb-5 mt-8 ">
           Get Started In 3 Steps
         </h2>
-        <p className="text-xl font-medium text-gray-500">
+        <p className="text-xl font-medium w-[70%] mx-auto text-gray-500">
           Start using premium digital tools in minutes, not hours
         </p>
       </div>

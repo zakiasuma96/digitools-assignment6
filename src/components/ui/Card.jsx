@@ -16,7 +16,7 @@ const Card = ({ tool, setCount, setSelectedTools, selectedTools }) => {
   }
     return (
        
-                     <div className="card bg-base-100  shadow-sm hover:-translate-y-2 transition- duration-600 ease-in-out">
+                     <div className=" card bg-base-100  shadow-sm hover:-translate-y-2 transition- duration-600 ease-in-out">
                   <div>
                     
                   </div>

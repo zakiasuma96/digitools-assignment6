@@ -4,8 +4,9 @@ import shoppingCart from '../../../assets/products/shopping-cart.png'
 const NavBar = ({ count}) => {
   
     return (
-      
-        <div className="navbar container mx-auto">
+
+
+          <div className="container mx-auto navbar py-4 md:px-35 "> 
             <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -50,9 +51,26 @@ const NavBar = ({ count}) => {
     <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-[16px] font-semibold text-white">Get Started</button>
     
   </div>
-  
+  {/* <div className="navbar-end gap-6 ">
+    <div className="flex items-center gap-4 justify-between  ">
+      <button className="text-[16px] font-semibold text-[#101727] cursor-pointer relative ">
+
+       
+
+       <img src={shoppingCart} alt="Shopping Cart" />
+        {count > 0 && <span className={`w-6 h-6 rounded-full bg-red-400 absolute -top-5 -right-4 badge badge-sm`}>{count}</span>}
+       
+      </button>
+         
+    <h4 className='text-[16px] font-semibold text-[#101727] cursor-pointer'>Login</h4>
+    </div>
+   
+    <button className="btn rounded-full bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-[16px] font-semibold text-white">Get Started</button>
+    
+  </div> */}
 
 </div>
+
 
 
     );
