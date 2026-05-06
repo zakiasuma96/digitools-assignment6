@@ -10,9 +10,9 @@ const Pricing = () => {
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="grid items-center justify-items-center grid-cols-1  md:grid-cols-3 gap-8">
+      <div className="grid items-center justify-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* pricing 1 */}
-        <div className="card w-90 bg-[#F2F2F2] shadow-sm rounded-2xl">
+        <div className="card w-70 bg-[#F2F2F2] shadow-sm rounded-2xl">
           <div className="card-body ">
             <div className="flex flex-col items-start gap-2">
               <h2 className="text-2xl font-bold">Starter</h2>
@@ -52,7 +52,7 @@ const Pricing = () => {
           </div>
         </div>
         {/* pricing 1 */}
-        <div className="card w-90 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm text-white rounded-2xl">
+        <div className="card w-70 bg-gradient-to-r from-[#4F39F6] to-[#9514FA] shadow-sm text-white rounded-2xl">
           <div className="card-body ">
             <div className="flex flex-col items-start gap-2 relative"> 
               <div className=" flex items-center justify-center absolute -top-9 right-25 ">
@@ -104,7 +104,7 @@ const Pricing = () => {
           </div>
         </div>
         {/* pricing 1 */}
-        <div className="card w-90 bg-[#F2F2F2] shadow-sm rounded-2xl">
+        <div className="card w-70 bg-[#F2F2F2] shadow-sm rounded-2xl">
           <div className="card-body ">
             <div className="flex flex-col items-start gap-2">
               

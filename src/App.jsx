@@ -24,14 +24,14 @@ const [count, setCount] = useState(0);
 
   return (
     <>
-     <header >
+     <header > 
 
-    <NavBar count={count} />
+    <NavBar  count={count} />
     <Hrline/>
     <Banner/>
     
      </header>
-     <main className="">
+     <main className="container mx-auto ">
       <Start/>
       <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
 
@@ -43,9 +43,9 @@ const [count, setCount] = useState(0);
       <Ready />
 
      </main>
-     <footer className="bg-[#101727] ">
+     <footer className="">
       
-    <Footer/>
+    <Footer className=""/>
      </footer>
     </>
   )

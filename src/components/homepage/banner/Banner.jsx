@@ -10,11 +10,11 @@ const Banner = () => {
     
        
 
-    <img className="max-w-sm rounded-lg shadow-2xl " src={bannerImg} alt="Banner" />
+    <img className="rounded-lg shadow-2xl " src={bannerImg} alt="Banner" />
         
    
     
-    <div className=' space-y-4'>
+    <div className='space-y-4'>
         <div>
                     <div className='border border-transparent bg-purple-100 rounded-full p-3 flex items-center gap-4 w-max '> 
                         <div className='border border-[#4F39F6] rounded-full p-1  '>
@@ -27,7 +27,7 @@ const Banner = () => {
                     </div>
                     
                 </div>
-                <h1 className='text-6xl font-extrabold leading-16 text-[#101727]'>Supercharge Your <br /> <span className='bg-clip-text text-transparent bg-gradient-to-b from-[#4F39F6] to-[#9514FA]'>Digital Workflow</span> </h1>
+                <h1 className='text-4xl md:text-6xl font-extrabold leading-16 text-[#101727]'>Supercharge Your <br /> <span className='bg-clip-text text-transparent bg-gradient-to-b from-[#4F39F6] to-[#9514FA]'>Digital Workflow</span> </h1>
                 <p className='text-[16px] font-normal text-[#101727] mt-4 w-10/12'>Access premium AI tools, design assets, templates, and productivity
 software—all in one place. Start creating faster today.<br />Explore Products</p>
                 <div className='flex gap-4'>

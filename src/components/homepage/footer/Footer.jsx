@@ -2,10 +2,11 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className=" container mx-auto"> 
-        <section className='footer sm:grid grid-cols-2 mx-4 lg:grid-cols-5 gap-10 pt-30 pb-20'>
+        <footer className=" bg-[#101727] text-white "> 
+    <div className="container mx-auto py-10 px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+              <section className='footer sm:grid items-center justify-items-center grid-cols-2 mx-8 lg:grid-cols-5 gap-10 pt-30 pb-20'>
 
-  <aside>
+  <aside className='flex flex-col gap-4 lg:mx-0'>
         <h1 className='text-3xl font-bold text-white'>Digitool</h1>
     <p className='text-[16px] font-bold leading-6 text-white opacity-25'>
       Premium digital tools for creators, <br /> professionals, and businesses.  Work smarter <br /> with our suite of powerful tools.
@@ -63,8 +64,11 @@ const Footer = () => {
   </div>
         </section>
             
- <hr className=' border-gray-400 pb-10' />
- <div className='flex flex-col lg:flex-row items-center justify-between '>
+
+  
+      </div>
+       <hr className=' border-gray-400 pb-10' />
+ <div className='flex flex-col mx-10 lg:flex-row items-center justify-between '>
     <p className=' text-white opacity-25 text-[16px] pb-6 font-bold leading-6'>© 2026 Digitools. All rights reserved.</p>
 
     <nav className='flex flex-row lg:flex-row items-center gap-6'>
@@ -73,7 +77,6 @@ const Footer = () => {
       <a href="" className=' text-white opacity-25 text-[16px] pb-6 font-bold leading-6'>Cookies</a> 
     </nav>
  </div>
-  
 </footer>
     );
 };
